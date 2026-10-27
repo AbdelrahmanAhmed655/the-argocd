@@ -14,7 +14,6 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
-
   source:
     repoURL: https://github.com/AbdelrahmanAhmed655/the-argocd.git
     targetRevision: main
