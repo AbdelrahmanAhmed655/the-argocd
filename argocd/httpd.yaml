@@ -8,7 +8,7 @@ spec:
   source:
     chart: httpd
     repoURL: ghcr.io/abdelrahmanahmed655
-    targetRevision: 0.1.0
+    targetRevision: 0.1.1
     helm:
       releaseName: httpd
   destination:
