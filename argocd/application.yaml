@@ -17,8 +17,11 @@ spec:
   source:
     repoURL: https://github.com/AbdelrahmanAhmed655/the-argocd.git
     targetRevision: main
-    path: base
-
+    path: httpd
+    helm:
+      releaseName: nginx
+      values: |
+        replicaCount: 2
   destination:
     # The cluster Argo CD itself runs in.
     server: https://kubernetes.default.svc
